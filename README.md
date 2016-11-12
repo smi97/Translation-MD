@@ -22,7 +22,7 @@ Boost.Filesystem была переработана несколько раз. В
 <a name="Ex35.1"></a>
 ####Пример 35.1. Использование `boost::filesystem::path`
 
-`
+```c++
 #include <boost/filesystem.hpp>
 
 using namespace boost::filesystem;
@@ -33,4 +33,4 @@ int main()
   path p2{"C:\\Windows"};
   path p3{L"C:\\Boost C++ \u5E93"};
 }
-`
+```
